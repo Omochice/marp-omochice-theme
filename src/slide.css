@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @media(prefers-color-scheme: dark) { */
+/*   var() */
+/* } */
+
+:root {
+  @apply text-text;
+}
+
+h1 {
+  @apply text-5xl text-text;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+
+section::after {
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+}
+
+section {
+  background-color: #1e1e2e;
+  border: solid 7px cyan;
+  border-bottom: solid 7px red;
+  font-family: "Noto Sans JP";
+
+  &[data-marpit-advanced-background="content"] {
+    border-right: none;
+  }
+}
+
+marp-pre {
+
+}

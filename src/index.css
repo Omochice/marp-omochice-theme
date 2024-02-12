@@ -1,0 +1,13 @@
+/*!
+ * @theme Omochice
+ * @author Omochice
+ *
+ * @auto-scaling true
+ * @size 4:3  1400px 1050px
+ * @size 5:4  1280px 1024px
+ * @size 16:9 1920px 1080px
+ */
+
+@import "./slide.css";
+@import "https://unpkg.com/@catppuccin/highlightjs@0.1.4/css/catppuccin-mocha.css";
+@import-theme "default";
